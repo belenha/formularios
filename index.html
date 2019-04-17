@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12 center-align">
+                <img src="logo-tank-1.png" alt="" class="responsive-img">
+            </div>
+            <h5 class="center-align">Solicitud de afiliación</h5>
+            <div class="col s12 m12 l6 offset-l2">
+                <p class="">Información del mentor</p>
+                <p>Información del nuevo socio</p>
+                <p class="smlltext"><i>Todos los campos son obligatorios</i></p>
+            </div>
+            <div class="col s12 m12 l8 offset-l2">
+                    <form class="row" action="/my-handling-form-page" method="post">
+                        <div class="col s12 m12 l6">
+                            <label for="name">Nombres:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <label for="lastname">Apellidos:</label>
+                            <input type="text" id="name" name="user_lastname" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <label for="mail">Correo electrónico:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <label for="amount">Tipo de inversión:</label>
+                            <input type="text" id="amount" name="amount" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                                <label for="pwd">Contraseña:</label>
+                                <input type="password" id="pwd" name="user_pwd" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <label for="pwdconfirm">Confirmar contraseña:</label>
+                            <input type="password" id="pwdconfirm" name="user_pwd" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                            <label for="adress">Calle:</label>
+                            <input type="text" id="adress" name="user_adress" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                                <label for="adressnumber">Número ext:</label>
+                                <input type="text" id="adressnumber" name="user_adressnumber" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                                <label for="adressnumber2">Número int:</label>
+                                <input type="text" id="adressnumber2" name="user_adressnumber2" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                                <label for="country">Pais:</label>
+                                <input type="text" id="country" name="user_country" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                                <label for="state">Estado:</label>
+                                <input type="text" id="state" name="user_state" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                                <label for="city">Ciudad:</label>
+                                <input type="text" id="city" name="user_city" />
+                        </div>
+                        <div class="col s12 m12 l8">
+                                <label for="nghb">Colonia:</label>
+                                <input type="text" id="nghb" name="user_nghb" />
+                        </div>
+                        <div class="col s12 m12 l4">
+                                <label for="zp">Código postal:</label>
+                                <input type="text" id="zp" name="user_zp" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                                <label for="tel">Teléfono:</label>
+                                <input type="text" id="tel" name="user_tel" />
+                        </div>
+                        <div class="col s12 m12 l6">
+                                <label for="cel">Celular:</label>
+                                <input type="text" id="cel" name="user_cel" />
+                        </div>
+                        <div class="col s12 m12 l12">
+                                <label for="cel">Usuario web:</label>
+                                <input type="text" id="webuser" name="webuser" placeholder="https://backofficetank.com/" />
+                        </div>
+                        <!-- <div class="col s3 m3 l5">
+                                <label for="cel">Usuario web:</label>
+                                <input type="text" id="webuser" name="webuser" placeholder="https://backofficetank.com/" />
+                        </div>
+                        <div class="col s9 m9 l7">
+                                <label for="cel">Usuario web:</label>
+                                <input type="text" id="webuser" name="webuser" placeholder="" />
+                        </div> -->
+                        <p class="infowbus col s12 m12 l12">· Usuario web para poder invitar inversionistas en línea <br>
+                            · Longitud máxima 50 caracteres <br>
+                            · El usuario web debe ser unico se va validar al registrar la información <br>
+                            · NOTA: En tu usuario web no son validos los signos de puntuacion solo letras sin la ñ y números
+                        </p>
+                        <div class="col s12 m12 l12">
+                            <label>
+                                <input type="checkbox" />
+                                <span>He leido y estoy de acuerdo con el aviso de privacidad</span>
+                            </label>
+                        </div>
+                        <p class="smlltext"><i>Por favor verifica que la información es correcta</i></p>
+                        <div class="center-align">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Registrar</button>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
